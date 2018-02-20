@@ -1,4 +1,7 @@
 <p id="notice"><%= notice %></p>
 
+<h1>This author is <%= @author.first_name %> <%= @author.last_name %></h1>
+<p><%= @author.id %></p>
+
 <%= link_to 'Edit', edit_author_path(@author) %> |
 <%= link_to 'Back', authors_path %>
